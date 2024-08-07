@@ -17,8 +17,8 @@ sudo apt update
 
 # Install aircrack-ng
 sudo apt install aircrack-ng
-```
-##Step 2: Set Wireless Interface to Monitor Mode
+
+## Step 2: Set Wireless Interface to Monitor Mode
 Find your wireless interface name and set it to monitor mode.
 # List network interfaces
 sudo iwconfig
