@@ -4,12 +4,11 @@ Custom APs: If the user chooses custom access points, they are prompted to enter
 Random APs: If the user chooses random access points, the script generates a specified number of access points with random SSIDs and channels.
 Steps to Run
 Set Wi-Fi Adapter to Monitor Mode:
-sh
-Copy code
+
+
 sudo airmon-ng start wlan0
 Run the Script:
-sh
-Copy code
+
 sudo python3 fake_ap.py 
 */
 from scapy.all import *
